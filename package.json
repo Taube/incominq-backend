@@ -1,0 +1,10 @@
+{
+  "name": "incominq-json",
+  "packageManager": "yarn@3.6.4",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "scripts": {
+    "start": "json-server --watch --port 3001 ./db.json"
+  }
+}
